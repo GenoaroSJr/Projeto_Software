@@ -1,37 +1,156 @@
-<div class="card">
+<!-- LOGS DO SISTEMA -->
+<div class="card mt-3" value="download" style="background-color: lightgreen;">
     <div class="card-header bg-dark">
-        <b class="text-white">Cadastro de Usuário</b>
+        <b class="text-white">Download de Logs</b>
     </div>
-    <div class="card-body">
+    <div class="card-body pt-0  ">
+        <p class="p-2 mb-0 p-0" style="text-align: center;">Se uma data não for selecionada, o sistema irá
+            retornar os
+            logs
+            de todo o período. </p>
         <blockquote class="blockquote mb-0">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+            <div class="row">
+                <div class="col-6">
+                    <div class="card p-0">
+                        <div class="card-header bg-dark">
+                            <b class="text-white">LOG DE ACESSOS AO SISTEMA</b>
+                        </div>
+                        <div class="card-body p-0 mt-3">
+                            <blockquote class="blockquote mb-0 col-12">
+                                <!-- PRIMEIRO FORM -->
+                                <form action="">
+                                    <div class="form-group col-12 m-0 p-0">
+                                        <select id="inputState" class="form-control">
+                                            <option selected>Bairro</option>
+                                            <option>...</option>
+                                        </select>
+                                        <div class="col-12 p-0 m-0">
+                                            <b>Data Inicio</b>
+                                            <input class="form-control" type="date" id="dia" name="dia"
+                                                placeholder="Data Inicio">
+                                        </div>
+                                        <div class="col-12 p-0 mb-2">
+                                            <b>Data Fim</b>
+                                            <input class="form-control" type="date" id="dia" name="dia"
+                                                placeholder="Data Inicio">
+                                        </div>
+                                    </div>
+                                    <div class="btn btn-info mb-2 col-12">BAIXAR</div>
+                                </form>
+                                <!-- FIM PRIMEIRO FORM -->
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card p-0">
+                        <div class="card-header bg-dark">
+                            <b class="text-white">LOG DE CADASTRO DE CÂMERAS</b>
+                        </div>
+                        <div class="card-body ">
+                            <blockquote class="blockquote mb-0 p-0">
+                                <!-- PRIMEIRO FORM -->
+                                <form action="">
+                                    <div class="form-group col-12 m-0 p-0">
+                                        <select id="inputState" class="form-control">
+                                            <option selected>Bairro</option>
+                                            <option>...</option>
+                                        </select>
+                                        <select id="inputState" class="form-control mt-1">
+                                            <option selected>Técnico</option>
+                                            <option>...</option>
+                                        </select>
+                                        <div class="col-12 p-0 m-0">
+                                            <b>Data Inicio</b>
+                                            <input class="form-control" type="date" id="dia" name="dia"
+                                                placeholder="Data Inicio">
+                                        </div>
+                                        <div class="col-12 p-0 mb-2">
+                                            <b>Data Fim</b>
+                                            <input class="form-control" type="date" id="dia" name="dia"
+                                                placeholder="Data Inicio">
+                                        </div>
+                                    </div>
+                                    <div class="btn btn-info mb-0 col-12">BAIXAR</div>
+                                </form>
+                                <!-- FIM PRIMEIRO FORM -->
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-1">
+                <div class="col-6">
+                    <div class="card p-0">
+                        <div class="card-header bg-dark">
+                            <b class="text-white">LOG DE ACESSO DE CÂMERAS</b>
+                        </div>
+                        <div class="card-body">
+                            <blockquote class="blockquote mb-0">
+                                <!-- PRIMEIRO FORM -->
+                                <form action="">
+                                    <div class="form-group col-12 m-0 p-0">
+                                        <select id="inputState" class="form-control">
+                                            <option selected>Bairro</option>
+                                            <option>...</option>
+                                        </select>
+                                        <select id="inputState" class="form-control mt-1">
+                                            <option selected>Guarda</option>
+                                            <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="btn btn-info mb-0 mt-2 col-12">BAIXAR</div>
+                                </form>
+                                <!-- FIM PRIMEIRO FORM -->
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card p-0">
+                        <div class="card-header bg-dark">
+                            <b class="text-white">LOG DE CONTEÚDO BAIXADO</b>
+                        </div>
+                        <div class="card-body">
+                            <blockquote class="blockquote mb-0">
+                                <!-- PRIMEIRO FORM -->
+                                <form action="">
+                                    <div class="form-group col-12 m-0 p-0">
+                                        <select id="inputState" class="form-control">
+                                            <option selected>Bairro</option>
+                                            <option>...</option>
+                                        </select>
+                                        <select id="inputState" class="form-control mt-1">
+                                            <option selected>Guarda</option>
+                                            <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="btn btn-info mb-0 mt-2 col-12">BAIXAR</div>
+                                </form>
+                                <!-- FIM PRIMEIRO FORM -->
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </blockquote>
     </div>
 </div>
+<!-- FIM LOGS DO SISTEMA -->
 
-<div class="card mt-3">
-    <div class="card-header bg-dark">
-        <b class="text-white">Lista de Serviços</b>
-    </div>
-    <div class="card-body">
-        <blockquote class="blockquote mb-0">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-        </blockquote>
-    </div>
-</div>
 
+<!-- -->
 <div class="row">
     <div class="col-6">
         <div class="card mt-3">
             <div class="card-header bg-dark">
-                <b class="text-white">Pendentes</b>
+                <b class="text-white">Cadastro de Eventos</b>
             </div>
             <div class="card-body">
                 <blockquote class="blockquote mb-0">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite>
+                    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source
+                            Title</cite>
                     </footer>
                 </blockquote>
             </div>
@@ -41,13 +160,91 @@
     <div class="col-6">
         <div class="card mt-3">
             <div class="card-header bg-dark">
-                <b class="text-white">Logs do Sistema</b>
+                <b class="text-white">Cadastrar Novos Usuários</b>
+            </div>
+            <div class="card-body">
+                <!-- PRIMEIRO FORM -->
+                <form action="">
+                    <div class="form-group p-0">
+                        <input type="text" class="form-control mb-1" id="exampleInputEmail1" placeholder="Nome: ">
+                        <input type="text" class="form-control mb-1" id="exampleInputEmail1" placeholder="RG: ">
+                        <input type="text" class="form-control mb-0" id="exampleInputEmail1"
+                            placeholder="Identificação: ">
+                        <small class="ml-2">Identificação na instituição de origem</small>
+                        <select class="form-control mt-2" name="" id="">
+                            <option value="">Técnico de Campo</option>
+                            <option value="">Guarda</option>
+                            <option value="">Usuário de Desenvolvimento</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-info col-12">CADASTRAR</button>
+                </form>
+                <!-- FIM PRIMEIRO FORM -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-6">
+        <div class="card mt-3">
+            <div class="card-header bg-dark">
+                <b class="text-white">Modificar Cadastro de Câmeras</b>
+            </div>
+            <div class="card-body">
+                <form action="">
+                    <select class="form-control mt-2 mb-3" name="" id="">
+                        <option value="">ID CÂMERA</option>
+                        <option value="">#10021</option>
+                        <option value="">...</option>
+                    </select>
+                    <p class="mb-0">Modificações: </p>
+                    <input type="text" class="form-control mb-1 mt-0" id="exampleInputEmail1" placeholder="ID: ">
+                    <input type="text" class="form-control mb-1 mt-0" id="exampleInputEmail1" placeholder="Bairro: ">
+                    <input type="text" class="form-control mb-1 mt-0" id="exampleInputEmail1" placeholder="Rua: ">
+                    <input type="text" class="form-control mb-1 mt-0" id="exampleInputEmail1" placeholder="CEP: ">
+                    <select class="form-control mt-2 mb-3" name="" id="">
+                        <option value="">INSTALADO POR:</option>
+                        <option value="">Técnico de Campo 1</option>
+                        <option value="">Técnico de Campo 2</option>
+                        <option value="">...</option>
+                    </select>
+                </form>
+                <button class="btn btn-info col-12">MODIFICAR</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-6">
+        <div class="card mt-3">
+            <div class="card-header bg-dark">
+                <b class="text-white">Modificar Cadastro de Usuário</b>
             </div>
             <div class="card-body">
                 <blockquote class="blockquote mb-0">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite>
-                    </footer>
+                    <!-- PRIMEIRO FORM -->
+                    <form action="">
+                        <div class="form-group p-0">
+                            <select class="form-control mt-1 mb-1" name="" id="">
+                                <option value="">Nome:</option>
+                                <option value="">João I</option>
+                                <option value="">João II</option>
+                                <option value="">...</option>
+                            </select>
+                            <input type="text" class="form-control mb-1" id="exampleInputEmail1" placeholder="RG: ">
+                            <input type="text" class="form-control mb-0" id="exampleInputEmail1"
+                                placeholder="Identificação: ">
+                            <small class="ml-2">Identificação na instituição de origem</small>
+                            <select class="form-control mt-2" name="" id="">
+                                <option value="">Técnico de Campo</option>
+                                <option value="">Guarda</option>
+                                <option value="">Usuário de Desenvolvimento</option>
+                            </select>
+                        </div>
+                        <button class="btn btn-info col-12">MODIFICAR</button>
+                    </form>
+                    <!-- FIM PRIMEIRO FORM -->
                 </blockquote>
             </div>
         </div>
