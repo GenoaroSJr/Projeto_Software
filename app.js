@@ -7,9 +7,17 @@ const app = express()
 const path = require("path")
 
 //Import Rotas
-const admin = require("./routes/admin")
+
+const login = require("./routes/login")
+
 const tecnico = require("./routes/tecnico")
 const vigilante = require("./routes/vigilante")
+
+
+const admin = require("./routes/admin")
+const ordemServico = require("./routes/ordemServico")
+const colaborador = require("./routes/colaborador")
+const reportes = require("./routes/reportes")
 
 //const mongoose = require('mongoose')
 
@@ -31,9 +39,13 @@ app.use(express.static(path.join(__dirname, "public")))
 app.use('/admin', admin)
 app.use('/tecnico', tecnico)
 app.use('/vigilante', vigilante)
+app.use('/login', login)
+app.use('/ordemServico', ordemServico)
+app.use('/colaborador', colaborador)
+app.use('/reportes', reportes)
 
 //Outros
 const PORT = 8081
 app.listen(PORT, () => {
-    console.log("Servidor Rodando!!")
+    console.log("Servidor Rodando em http://localhost:8081/ ")
 })

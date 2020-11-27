@@ -1,0 +1,62 @@
+<div class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Download Personalizado</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    <label for="address2">Rua<span class="text-muted"></span></label>
+                    <input type="text" class="form-control" id="address2" placeholder="Link">
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 mb-3">
+                        <label for="country">Servidor</label>
+                        <select class="custom-select d-block w-100" id="country" required>
+                            <option value="">Escolher...</option>
+                            <option>Itajubá</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-5 mb-3">
+                        <label for="country">Cidade</label>
+                        <select class="custom-select d-block w-100" id="country" required>
+                            <option value="">Escolher...</option>
+                            <option>Itajubá</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Entre com uma cidade válida
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="state">Bairro</label>
+                        <select class="custom-select d-block w-100" id="state" required>
+                            <option value="">Escolher...</option>
+                            <option>Varginha</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Entre com um bairro válido
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="zip">CEP</label>
+                        <input type="text" class="form-control" id="zip" placeholder="">
+                        <div class="invalid-feedback">
+                            Entre com o CEP
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <b>Algumas informações poderão ser omitidas para que o sistema retorne todo o período.</b>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Baixar</button>
+                </div>
+            </div>
+        </div>
+    </div>

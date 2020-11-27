@@ -1,0 +1,130 @@
+<nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="#">Vigilancia Itajubá</a>
+
+
+    <ul class="navbar-nav px-3">
+        <li class="nav-item text-nowrap">
+            <a class="nav-link" href="#">Sair</a>
+        </li>
+    </ul>
+</nav>
+
+<div class="container">
+    <div class="py-3 text-center bg-dark mb-3 p-0">
+        <img class="d-block mx-auto mb-4" src="/img/Foto.png" alt="" width="100" height="100">
+        <h2 class="text-white">Nome do Técnico</h2>
+        <button class="btn btn-outline-info mt-1">Ordens de Serviço</button>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-12 order-md-1">
+            <h4 class="mb-3">Informações da Câmera</h4>
+            <form class="needs-validation" novalidate>
+                <h6>Prefeitura</h6>
+                <hr>
+                <div class="row mb-3">
+                    <div class="col-md-6 mb-3">
+                        <label for="firstName">Rua</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                        <div class="invalid-feedback">
+                            Entre com uma rua válida
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="lastName">ID</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                        <div class="invalid-feedback">
+                            Entre com um DI válido
+                        </div>
+                    </div>
+                </div>
+
+                <h6>Pessoa física ou jurídica</h6>
+                <hr>
+
+                <div class="mb-3">
+                    <label for="state">Nome do proprietário</label>
+                    <select class="custom-select d-block w-100" id="state" required>
+                        <option value="">Escolher...</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label for="email">Email <span class="text-muted">(Opcional)</span></label>
+                    <input type="email" class="form-control" id="email" placeholder="nome@exemplo.com">
+                    <div class="invalid-feedback">
+                        Entre com um endereço de email válido.
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="address">Contato</label>
+                    <input type="text" class="form-control" id="address" placeholder="Celular" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="address2">Contato 2 <span class="text-muted">(Opcional)</span></label>
+                    <input type="text" class="form-control" id="address2">
+                </div>
+
+                <div class="mb-3">
+                    <label for="address2">Link de Acesso<span class="text-muted"></span></label>
+                    <input type="text" class="form-control" id="address2" placeholder="Link">
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="firstName">Usuário</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="lastName">Senha</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-5 mb-3">
+                        <label for="country">Cidade</label>
+                        <select class="custom-select d-block w-100" id="country" required>
+                            <option value="">Escolher...</option>
+                            <option>Itajubá</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Entre com uma cidade válida
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="state">Bairro</label>
+                        <select class="custom-select d-block w-100" id="state" required>
+                            <option value="">Escolher...</option>
+                            <option>Varginha</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Entre com um bairro válido
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="zip">CEP</label>
+                        <input type="text" class="form-control" id="zip" placeholder="">
+                        <div class="invalid-feedback">
+                            Entre com o CEP
+                        </div>
+                    </div>
+                </div>
+                <hr class="mb-4">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="same-address">
+                    <label class="custom-control-label" for="same-address">Pessoa física</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="save-info">
+                    <label class="custom-control-label" for="save-info">Pessoa jurídica</label>
+                </div>
+                <hr class="mb-1">
+
+                <footer class="my-5 pt-1 text-muted text-center text-small">
+                    <p class="mb-1">&copy; 2020 Vigilância Itajubá</p>
+                </footer>
+        </div>
