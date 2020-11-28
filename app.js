@@ -18,6 +18,7 @@ const admin = require("./routes/admin")
 const ordemServico = require("./routes/ordemServico")
 const colaborador = require("./routes/colaborador")
 const reportes = require("./routes/reportes")
+const periodoEspecifico = require("./routes/periodoEspecifico")
 
 //const mongoose = require('mongoose')
 
@@ -43,6 +44,7 @@ app.use('/login', login)
 app.use('/ordemServico', ordemServico)
 app.use('/colaborador', colaborador)
 app.use('/reportes', reportes)
+app.use('/periodoEspecifico', periodoEspecifico)
 
 //Outros
 const PORT = 8081
