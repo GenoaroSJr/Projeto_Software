@@ -1,5 +1,5 @@
 # Projeto_Software
-Project developed as a requirement for software engineering matters at the Federal University of Itajubá. The "Vigilância Itjubá" project is an application aimed at centralizing and expanding the surveillance system of the city and region.
+Project developed as a requirement for software engineering matters at the Federal University of Itajubá. The "Vigilância Itajubá" project is an application aimed at centralizing and expanding the surveillance system of the city and region.
 
 ## Install dependencies
 
